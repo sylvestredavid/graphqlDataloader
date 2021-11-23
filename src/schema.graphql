@@ -1,0 +1,17 @@
+type Query {
+    getAllUsers: [User!]!
+}
+
+type User{
+    id: Int!,
+    name: String,
+    firstName: String!,
+    email: String!
+    teams: [Team!]!
+}
+
+type Team{
+    id: Int,
+    name: String,
+    users: [User!]!
+}
