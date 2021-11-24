@@ -1,5 +1,3 @@
-import {TeamModel} from "./Team.model";
-
 export interface UserModel {
     id: number,
     name?: string,

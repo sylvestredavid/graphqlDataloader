@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c868e9b2-d14d-4f33-b38d-241f1b8a6312" name="Default Changelist" comment="" />
+    <list default="true" id="c868e9b2-d14d-4f33-b38d-241f1b8a6312" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resolvers/Team.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataLoader/batchLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataLoader/batchLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Team.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Team.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/Query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/Query.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolvers/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema.graphql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,15 +61,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resolvers" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resolvers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/models" />
       <recent name="$PROJECT_DIR$/src" />
@@ -92,6 +103,7 @@
       <updated>1637339858191</updated>
       <workItem from="1637339859299" duration="6396000" />
       <workItem from="1637660723608" duration="8782000" />
+      <workItem from="1637750880172" duration="860000" />
     </task>
     <servers />
   </component>
@@ -108,24 +120,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1637750853392">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1637766663064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1637750853392" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1637750853391">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1637766663064" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1637766663062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1637750853391" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1637750853391">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1637766663062" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1637766663061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1637750853391" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1637750853392">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1637766663061" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1637766663063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1637750853392" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1637766663063" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1637608355323">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

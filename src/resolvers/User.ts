@@ -1,5 +1,5 @@
-import {TeamModel} from "../models/Team.model";
 import {teamBatchLoader} from "../dataLoader/batchLoaders";
+
 const DataLoader = require('dataloader')
 
 const User = {
