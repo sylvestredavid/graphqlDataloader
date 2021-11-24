@@ -1,13 +1,10 @@
 import {TeamModel} from "../models/Team.model";
+import {teamBatchLoader} from "../dataLoader/batchLoaders";
 const DataLoader = require('dataloader')
 
 const User = {
     teams(parent, args, {db}, info) {
-        const teamLoader = new DataLoader((keys) => {
-            return Promise.resolve(keys.map((teamId) =>
-                db.teams.find((team) => team.id === teamId) || {}
-            ))
-        })
+        const teamLoader = new DataLoader(keys => teamBatchLoader(keys))
         return teamLoader.loadMany(parent.teamsIds)
     }
 }

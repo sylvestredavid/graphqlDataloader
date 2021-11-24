@@ -8,7 +8,7 @@ const db: {users: UserModel[], teams: TeamModel[]} = {
             name: 'david',
             firstName: 'sylvestre',
             email: 'dd@dd.dd',
-            teamsIds: [1, 3, 6]
+            teamsIds: [1, 3, 2]
         },
         {
             id: 2,
